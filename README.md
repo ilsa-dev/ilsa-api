@@ -26,4 +26,4 @@ Use the current example
 
 
 
-Made with :love: in London
+Made with :love_letter: in London :uk:
