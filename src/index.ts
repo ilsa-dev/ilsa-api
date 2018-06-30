@@ -7,7 +7,8 @@ debug('ts-express:server');
 
 
 // -->Set: port
-const port = normalizePort(3000);
+const port = normalizePort(5010);
+console.log('Running on port ' + port);
 App.set('port', port);
 
 // -->Set: headers

@@ -3,12 +3,18 @@
     "target": "es6",
     "module": "commonjs",
     "outDir": "dist",
-    "declaration": false
+    "declaration": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "preserveConstEnums": true
   },
   "include": [
     "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ]
 }

@@ -19,9 +19,7 @@ class App {
         this.middleware();
         this.routes();
 
-        console.log("\n\n");
-        console.log("Yeyyy.... Express in online");
-        console.log("Now configure your routes and everything should work");
+        console.log('Express online.');
 
         // todo: prepare your db here
     }
