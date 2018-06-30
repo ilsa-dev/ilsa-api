@@ -7,22 +7,23 @@ Nodejs - Express - Typescript
 # Execute / Debug (Webstorm)
 
 ### Setup/Create Debug Profile
-###Run > Edit Configurations > Add New Configuration > Select 'Node.js'
+Run > Edit Configurations > Add New Configuration > Select 'Node.js'
 - Name the debug profile
 - Set the nodejs interpreter >v8.0.0
 - Set Javascriptfile = `dist/index.js`
 - Add 'Before Launch' action: 'Compile Typescript'
 
 Put in breakpoints in the .ts files and run the debug profile.
+It's recommended you run the server application in debug mode (just click the debug button and you're good to go).
 
 
 # Committing Changes
 
 Before pushing to the repository be sure to execute the ff so we can version the changes:
 
-`npm version patch` - If commits only updates/debug a certain feature / function
-`npm version minor` - If commits has new features / function
-`npm version major` - Only for major release (Client stable)
+- `npm version patch` - If commits only updates/debug a certain feature / function
+- `npm version minor` - If commits has new features / function
+- `npm version major` - Only for major release (Client stable)
 
 # CI Deployment
 
