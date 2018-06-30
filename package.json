@@ -1,6 +1,6 @@
 {
   "name": "typescript-node-express-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "typescript-node-express-server API",
   "main": "index.js",
   "scripts": {
